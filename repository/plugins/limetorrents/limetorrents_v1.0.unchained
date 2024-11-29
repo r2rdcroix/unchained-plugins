@@ -2,7 +2,9 @@
   "engine_version": 2.5,
   "version": 1.0,
   "url": "https://www.limetorrents.lol",
-  "alternative_urls": [https://www.limetorrents.cc],
+  "alternative_urls": [
+    "https://www.limetorrents.cc"
+  ],
   "name": "limetorrents",
   "description": "Parser for limetorrents.lol",
   "supported_categories": {
@@ -48,7 +50,7 @@
         "regex_use": "all",
         "regexps": [
           {
-            "regex": "<a\s+href="(https?:\/\/itorrents\\.org\/torrent\/[^\"]+)",
+            "regex": "<a\\s+href=\"(https?:\/\/itorrents\\.org\/torrent\/[^\"]+)",
             "group": 1,
             "slug_type": "complete"
           }
