@@ -48,7 +48,7 @@
         "regex_use": "all",
         "regexps": [
           {
-            "regex": "<a\s+href="(https?:\/\/itorrents\\.org\/torrent\/[^"]+)",
+            "regex": "<a\s+href="(https?:\/\/itorrents\\.org\/torrent\/[^\"]+)",
             "group": 1,
             "slug_type": "complete"
           }

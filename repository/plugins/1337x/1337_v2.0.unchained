@@ -86,7 +86,7 @@
         "regex_use": "all",
         "regexps": [
           {
-            "regex": "(https?://itorrents\\.org/torrent/[^"]+)",
+            "regex": "(https?://itorrents\\.org/torrent/[^\"]+)",
             "group": 1,
             "slug_type": "complete"
           }
