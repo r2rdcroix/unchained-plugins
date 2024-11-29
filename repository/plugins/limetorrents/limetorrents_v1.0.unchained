@@ -1,0 +1,99 @@
+{
+  "engine_version": 2.5,
+  "version": 1.0,
+  "url": "https://www.limetorrents.lol",
+  "alternative_urls": [https://www.limetorrents.cc],
+  "name": "limetorrents",
+  "description": "Parser for limetorrents.lol",
+  "supported_categories": {
+    "all": "",
+    "anime": "anime",
+    "games": "games",
+    "software": "applications",
+    "movies": "movies",
+    "music": "music",
+    "tv": "tv"
+  },
+  "search": {
+    "category": "${url}/search/${category}/${query}//${page}/",
+    "no_category": "${url}/search/all/${query}//${page}/",
+    "page_start": 1
+  },
+  "download": {
+    "table_direct": {
+      "class": "table2",
+      "columns": {
+        "name_column": 0,
+        "added_date_column": 1,
+        "seeders_column": 3,
+        "leechers_column": 4,
+        "size_column": 2,
+        "magnet_column": 0,
+        "torrent_column": 0,
+        "details_column": 0
+      }
+    },
+    "regexes": {
+      "name": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "<div[^>]*>[^<]*<a[^>]+>[^<]*<\/a>[^<]*<a[^>]+>([^<]+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      },
+      "torrents": {
+        "regex_use": "all",
+        "regexps": [
+          {
+            "regex": "<a\s+href="(https?:\/\/itorrents\\.org\/torrent\/[^"]+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      },
+      "seeders": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "(\\d+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      },
+      "leechers": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "(\\d+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      },
+      "date_added": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "([\\w\\s]+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      },
+      "size": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "([\\w\\s\\.]+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      }
+    }
+  }
+}

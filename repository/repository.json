@@ -180,6 +180,17 @@
           "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bt4g/bt4g_v1.1.unchained"
         }
       ]
+    },
+    {
+      "id": "limetorrents.lol",
+      "disabled": false,
+      "versions": [
+        {
+          "plugin": 1.0,
+          "engine": 2.5,
+          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/limetorrents/limetorrents_v1.0.unchained"
+        }
+      ]
     }
   ]
 }
