@@ -187,13 +187,13 @@
       ]
     },
     {
-      "id": "limetorrents.lol",
+      "id": "eztvx.to",
       "disabled": false,
       "versions": [
         {
           "plugin": 1.0,
           "engine": 2.5,
-          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/limetorrents/limetorrents_v1.0.unchained"
+          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/eztv/eztv_v1.0.unchained"
         }
       ]
     }
