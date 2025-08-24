@@ -103,7 +103,7 @@
       "id": "table-id",
       // restrict the search of a single entry data inside a single item class.
       // This or entry-tag are MANDATORY, we need it to separate the data on a single page
-      "entry-class": "entry-class-name"
+      "entry-class": "entry-class-name",
       // restrict the search of a single entry data inside a single html tag.
       // This or entry-tag are MANDATORY, we need it to separate the data on a single page
       "entry-tag": "div"

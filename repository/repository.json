@@ -33,7 +33,7 @@
     },
     {
       "id": "bitsearch",
-      "disabled": false,
+      "disabled": true,
       "versions": [
         {
           "plugin": 1.0,
@@ -49,6 +49,11 @@
           "plugin": 2.1,
           "engine": 2.5,
           "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bitsearch/bitsearch_v2.1.unchained"
+        },
+        {
+          "plugin": 2.2,
+          "engine": 2.5,
+          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bitsearch/bitsearch_v2.2.unchained"
         }
       ]
     },
@@ -70,7 +75,7 @@
     },
     {
       "id": "Isohunt",
-      "disabled": false,
+      "disabled": true,
       "versions": [
         {
           "plugin": 2.0,
@@ -86,7 +91,7 @@
     },
     {
       "id": "magnetdl",
-      "disabled": false,
+      "disabled": true,
       "versions": [
         {
           "plugin": 2.0,
@@ -167,6 +172,11 @@
           "plugin": 1.0,
           "engine": 2.6,
           "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/torrentz2/torrentz2_v1.0.unchained"
+        },
+        {
+          "plugin": 1.1,
+          "engine": 2.5,
+          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/torrentz2/torrentz2_v1.1.unchained"
         }
       ]
     },
