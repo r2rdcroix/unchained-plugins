@@ -6,10 +6,22 @@
 */
 {
   /**
-   * The engine for which this plugin was developed
-   * used to check compatibility with the current plugin system.
-   * Minor versions will be compatible (e.g 1.1, 1.2, 1.3),
-   * Major versions will not be compatible (e.g. 2, 3)
+    * The engine for which this plugin was developed
+    * used to check compatibility with the current plugin system.
+    * Minor versions will be compatible (e.g 1.1, 1.2, 1.3),
+    * Major versions will not be compatible (e.g. 2, 3)
+
+    * CHANGELOG:
+    * - 1.0: first version
+    * - 1.1: added skipping of empty rows in tables
+    * - 1.2: added table_indirect
+    * - 2.0: use array for all regexps
+    * - 2.1: added direct parsing mode
+    * - 2.2: added entry class to direct parsing mode (required)
+    * - 2.3: added optional table index to table parsers (for tables with no specific class/id)
+    * - 2.4: added more categories
+    * - 2.5: parse added date
+    * - 2.6: added entry tag to direct parsing mode (this or entry class is required)
   */
   "engine_version": 2.0,
   // the current plugin version. Used to check for updates
