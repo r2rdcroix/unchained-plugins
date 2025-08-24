@@ -75,7 +75,7 @@
     },
     {
       "id": "Isohunt",
-      "disabled": true,
+      "disabled": false,
       "versions": [
         {
           "plugin": 2.0,
@@ -86,6 +86,11 @@
           "plugin": 2.1,
           "engine": 2.0,
           "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/isohunt_nz/isohunt_nz_v2.1.unchained"
+        },
+        {
+          "plugin": 2.2,
+          "engine": 2.0,
+          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/isohunt_nz/isohunt_nz_v2.2.unchained"
         }
       ]
     },
