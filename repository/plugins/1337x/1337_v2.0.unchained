@@ -5,7 +5,7 @@
   "name": "1337x",
   "description": "Parser for 1337x.to",
   "supported_categories": {
-    "all": "None",
+    "all": "",
     "anime": "Anime",
     "software": "Applications",
     "games": "Games",
